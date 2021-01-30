@@ -4,8 +4,9 @@ const app = express();
 const routes = require("./routes");
 
 
-// use router
-app.use("/", routes);
+// wesp router
+
+routes(app);
 
 // 404 error
 app.use((req, res) => {

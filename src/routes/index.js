@@ -1,10 +1,11 @@
-const express = require("express");
-const router = express.Router();
 const path = require("./../utils/base").path;
+const blog = require("./blog");
 
-router.get("/", (req, res) => {
-    res.sendFile(`${path}/views/frontpage.html`);
-})
-
+const router = (app) => {
+    app.get("/", (req, res) => {
+        res.send("Hello from Wesp")
+    })
+    blog(app);
+}
 
 module.exports = router;
