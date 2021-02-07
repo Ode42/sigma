@@ -14,7 +14,8 @@ const router = (app) => {
             lang: "en",
             title: "Wesp",
             header: data.header.toString(),
-            blog: data.blog.toString()
+            blog: data.blog.toString(),
+            footer: data.footer.toString()
            })
        });
        
