@@ -2,8 +2,10 @@ const express = require("express");
 const port = process.env.PORT || 5000;
 const app = express();
 const routes = require("./routes");
-
-
+const mustacheExpress = require("mustache-express");
+app.engine("html", mustacheExpress());
+app.set("view engine", "html");
+app.set("views", __dirname + "/views");
 // wesp router
 
 routes(app);
