@@ -1,1 +1,1 @@
-# Sigma - the next-generation website builder
+# Sigma - the next-generation website builderz
