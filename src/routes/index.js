@@ -10,7 +10,7 @@ const router = (app) => {
        const templates = getTemplates()
        .then((data, err) => { // templates are in object inside data
            if (err) console.log(err);
-           res.render(`${path}/views/frontpage.html`, {
+           res.render(`${path}/public/views/frontpage.html`, {
             lang: "en",
             title: "Wesp",
             header: data.header.toString(),
