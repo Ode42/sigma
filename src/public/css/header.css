@@ -1,3 +1,7 @@
 header {
-    background: yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
 }

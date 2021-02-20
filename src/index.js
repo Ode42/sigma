@@ -28,6 +28,7 @@ app.use(express.static(__dirname + '/public'));
 
 
 /* start of executing modules */
+api(app, host);
 routes(app, host);
 /* end of executing modules */
 
