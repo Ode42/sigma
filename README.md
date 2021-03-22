@@ -1,1 +1,1 @@
-# Sigma - the next-generation website builderz
+# Sigma - JavaScript framework for easy website development
